@@ -1,8 +1,8 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://127.0.0.1:4000"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+url: "https://balboabacon.de"
+title: Balboa Bacon # site's title
+description: "A website dedicated to dance, music, coding, food, and more" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
