@@ -9,3 +9,5 @@ gem "jekyll-theme-type-on-strap", "~> 4.0"
 gem "rdiscount", "~> 2.2"
 
 gem "jekyll-katex", "~> 0.3.0"
+
+gem "jekyll-responsive-image"

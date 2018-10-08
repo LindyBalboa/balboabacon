@@ -79,6 +79,9 @@ GEM
       execjs (~> 2.7)
       jekyll (~> 3.8)
     jekyll-paginate (1.1.0)
+    jekyll-responsive-image (1.5.2)
+      jekyll (>= 2.0, < 4.0)
+      rmagick (>= 2.0, < 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -146,6 +149,7 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rdiscount (2.2.0.1)
+    rmagick (2.16.0)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -175,6 +179,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8)
   jekyll-katex (~> 0.3.0)
+  jekyll-responsive-image
   jekyll-theme-type-on-strap (~> 4.0)
   rails
   rdiscount (~> 2.2)
