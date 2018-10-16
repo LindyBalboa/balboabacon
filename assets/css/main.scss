@@ -1,0 +1,31 @@
+---
+---
+
+@import "type-on-strap";
+
+.highlight table {
+	overflow: auto;
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+
+	td {
+		&.gutter,
+        &.rouge-gutter {
+            border-right: 2px solid $base04;
+			background: $base00;
+			position: absolute;
+			width: 3em;
+			-webkit-touch-callout: none; /* iOS Safari */
+    		-webkit-user-select: none; /* Safari */
+    	 	-khtml-user-select: none; /* Konqueror HTML */
+    	   	-moz-user-select: none; /* Firefox */
+    	    -ms-user-select: none; /* Internet Explorer/Edge */
+    	    user-select: none; /* Non-prefixed version, currently
+    	                          supported by Chrome and Opera */
+			}
+		&.code,
+        &.rouge-code {
+			padding-left: 4em;
+			}
+		}
+}
