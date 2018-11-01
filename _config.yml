@@ -6,6 +6,10 @@ description: "A website dedicated to dance, music, coding, food, and more" # use
 
 defaults:
   - scope:
+      path: "assets/img/gallery/"
+    values:
+      gallery: true
+  - scope:
       path: "assets/img/"
     values:
       image: true
@@ -109,6 +113,7 @@ responsive_image:
 
 # BUILD SETTINGS
 markdown: kramdown
+kramdown:
 highlighter: rouge
 sass:
   sass_dir: _sass
